@@ -19,7 +19,7 @@ class App extends Component {
             if(this.state.renderBall){
                const temp=this.state.posi+5
                this.setState({posi:temp})
-               this.setState({ballPosition:{left: this.state.posi+"px"}})
+               this.setState({ballPosition:{left: temp+"px"}})
             }
         }
     }
